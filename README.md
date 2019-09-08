@@ -1,5 +1,5 @@
 # redis-cache-flathash
-Utilities for using Spring Cache and Spring Data Redis with the feature to store object into Redis with a flat hash form.
+Utilities for using Spring Cache and Spring Data Redis with the feature to store object into Redis with a flat hash form rather than a JSON string.
 
 This is a derivative work of [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)
 
