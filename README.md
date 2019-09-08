@@ -1,7 +1,7 @@
 # redis-cache-flathash
 Utilities for using Spring Cache and Spring Data Redis with the feature to store object into Redis with a flat hash form.
 
-Usage: See the example directory for configure
+Usage: See the [example](https://github.com/ethancommitpush/redis-cache-flathash/tree/master/example) directory for configure
 
 ```java
 @Cacheable(value="springCache", key="'customer:' + #id", unless = "#result == null")/* result in redis key: springCache::customer:1 */
