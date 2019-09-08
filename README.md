@@ -14,11 +14,11 @@ public Customer findById(Integer id) {
 
 and the data would be stored in Redis with key "springCache::customer:1" like:
 
-|                |                                            |
-|----------------|--------------------------------------------|
-| _class         | idv.ethancommitpush.flathash.example.model |
-| id             | 1                                          |
-| firstName      | FirstName1                                 |
-| lastName       | LastName1                                  |
-| privilege.id   | 1                                          |
-| privilege.name | normal                                     |
+|                |                                                     |
+|----------------|-----------------------------------------------------|
+| _class         | idv.ethancommitpush.flathash.example.model.Customer |
+| id             | 1                                                   |
+| firstName      | FirstName1                                          |
+| lastName       | LastName1                                           |
+| privilege.id   | 1                                                   |
+| privilege.name | normal                                              |
